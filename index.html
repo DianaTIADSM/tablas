@@ -42,6 +42,33 @@
         p {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        .menu {
+            display: flex;
+            justify-content: end;
+            position: fixed;
+            top: 10px;
+            background-color: #e7e6ff;
+            padding: 2rem;
+            width: 95%;
+            opacity: .8;
+        }
+
+        .menu li {
+            list-style: none;
+            background-color: #00b0ff;
+            margin: 10px;
+        }
+
+        .menu a {
+            padding: 1rem;
+            text-decoration: none;
+            background-color: #73c0ff;
+            color: #aa617a;
+            font-weight: bold;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
     </style>
 
 </head>
@@ -53,6 +80,15 @@
         commodi fugit facilis libero. Dolorem repudiandae vitae iure doloribus quidem repellendus sunt fugiat fugit
         rerum voluptate.</p>
     <hr />
+    <nav>
+        <ul class="menu">
+            <li><a href="#foto1">FOTO 1</a></li>
+            <li><a href="#foto2">FOTO 2</a></li>
+            <li><a href="#foto3">FOTO 3</a></li>
+            <li><a href="#foto4">FOTO 4</a></li>
+            <li><a href="#foto5">FOTO 5</a></li>
+        </ul>
+    </nav>
 
     <table border="1" class="tabla">
 
@@ -123,6 +159,31 @@
             </td>
         </tr>
     </table>
+
+    <section id="foto1">
+        <h1>FOTO 1</h1>
+        <img src="https://picsum.photos/seed/picsum/200/300" />
+    </section>
+
+    <section id="foto2">
+        <h1>FOTO 2</h1>
+        <img src="https://picsum.photos/200/300?grayscale" />
+    </section>
+
+    <section id="foto3">
+        <h1>FOTO 3</h1>
+        <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" />
+    </section>
+
+    <section id="foto4">
+        <h1>FOTO 4</h1>
+        <img src="https://picsum.photos/200/300.jpg" />
+    </section>
+
+    <section id="foto5">
+        <h1>FOTO 5</h1>
+        <img src="https://picsum.photos/200/300.webp" />
+    </section>
 
 </body>
 
