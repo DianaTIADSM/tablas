@@ -18,7 +18,7 @@ button {
     border-radius: 10px;
 
 }
-::placeholder{
-    color:#ccc;
-    
+
+::placeholder {
+    color: #ccc;
 }
