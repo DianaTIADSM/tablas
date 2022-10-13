@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="contacto">
+        <h1>Formulario de contacto</h1>
+        <hr />
+        <div>
+            <form>
+                <label for="nombre">Ingresa tu nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" />
+                <input type="number" name="edad" id="edad" placeholder="Ingresa tu edad" />
+
+                <textarea></textarea>
+
+                <select>
+                    <option value="1">--Seleccionar la categoria--</option>
+                    <option value="2">Escuelas</option>
+                    <option value="3">Restaurantes</option>
+                    <option value="4">Servicios públicos</option>
+                </select>
+
+                <input type="color" name="color" id="color" />
+                <input type="range" max="100" min="10" name="rango" id="rango" />
+                <input type="checkbox" /> Aceptar
+                <input type="radio" name="tendencia">Opcion 1
+                <input type="radio" name="tendencia">Opcion 2
+                <input type="radio" name="tendencia">Opcion 3
+                <input type="date" name="fecha" />
+                <label for="correo">Ingresa tu correo
+                </label>
+                <input type="email" name="correo" placeholder="Ingresa tu correo" />
+                <button>Guardar registro</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
